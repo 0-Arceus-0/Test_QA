@@ -1,0 +1,52 @@
+body{
+    background: darkgrey;
+    text-align: center;
+}
+#lives{
+    font-size: 5.5vmin;
+    text-align: left;
+    margin-left: 5.5vmin;
+    color: #ffffff;
+}
+#buy{
+    font-size: 5.5vmin;
+    text-align: center;
+    margin-left: 30vmin;
+    margin-top: 13vmin;
+    color: black;
+    background-color: brown;
+    height: 6.5vmin;
+    width: 6.5vmin;
+    border: solid #792626;
+    border-radius: 50%;
+}
+#btn1,#btn2,#btn3,#btn4{
+    font-size: 7vmin;
+    padding: 3vmin;
+    width: 82vw;
+    margin: 2vmin 4vmin;
+    border-radius: 2vmin;
+    background: #ffffff;
+    color: rgb(3, 48, 33);
+    border: solid gray 0.3vmin;
+    
+}
+#scores{
+    font-size: 5.5vmin;
+    text-align: right;
+    margin-right: 6vmin;
+    margin-top: -12.5vmin;
+    color: chocolate;
+}
+#q{
+    font-size: 7vmin;
+    margin: 8vmin 2vmin 5vmin 2vmin;
+    color: darkgreen;
+}
+#result{
+    font-size: 10vmin;
+    margin: 15vmin 2vmin 5vmin 2vmin;
+    color: darkgoldenrod;
+    text-align: left;
+    
+}

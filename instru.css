@@ -1,0 +1,31 @@
+body{
+    background: burlywood;
+    text-align: center;
+}
+.btn{
+    flex: 1;
+    text-align: center;
+}
+.btn ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.btn ul li a{
+color: blue;
+text-decoration: none;
+font-size: 13px;
+}
+.btn ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: O.5s;
+}
+.btn ul li:hover::after{
+    width: 100%;
+}
